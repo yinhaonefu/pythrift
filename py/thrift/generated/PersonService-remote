@@ -16,8 +16,8 @@ else:
 from thrift.transport import TTransport, TSocket, TSSLSocket, THttpClient
 from thrift.protocol.TBinaryProtocol import TBinaryProtocol
 
-from thrift.generated import PersonService
-from thrift.generated.ttypes import *
+from py.thrift.generated import PersonService
+from py.thrift.generated.ttypes import *
 
 if len(sys.argv) <= 1 or sys.argv[1] == '--help':
     print('')
